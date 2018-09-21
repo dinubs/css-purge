@@ -3,6 +3,7 @@ const cssPurge = require('./lib/css-purge');
 const css = `
 h1 {
   color: red;
+  font-weight: bold;
 }
 
 h1, h2 {
@@ -11,6 +12,7 @@ h1, h2 {
 
 h1 {
   color: black;
+  position: absolute;
 }
 `;
 
